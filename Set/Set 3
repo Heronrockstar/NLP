@@ -1,0 +1,21 @@
+Set-3
+
+1. Write a Python program that uses the NLTK library to perform morphological analysis on sentence "Unhappily, she ran quickly".
+
+2. Develop a program for sentiment analysis (positive, negative, or neutral) using textblob library, (e.g., using a pre-trained model or building a custom model), to the sentences "I love this product! It's amazing.", "The weather is terrible today.".
+
+3. Write a Python program that demonstrates how to access WordNet, a lexical database, to retrieve synesis and explore word meanings. Provides information about the meanings, relationships, and synonyms of words in the English language for the following "The cat sat on the mat.", "The dog barked loudly.", "She played the piano beautifully."
+
+4. Create a Python program to recognize dialog acts in a given dialog or conversation = [
+
+"Good morning! How's the weather today?",
+
+"I heard it's going to be sunny and warm.",
+
+"Could you please send me the report by 3 PM?",
+
+"Of course, I'll send it over before the deadline.",
+
+"Do you know where the nearest post office is?",
+
+"The post office is two blocks down the street."].
