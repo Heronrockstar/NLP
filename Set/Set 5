@@ -1,0 +1,8 @@
+
+1. Develop a Python program that applies the Porter Stemmer algorithm to a list of words, which stemming process and provide examples of words such as ["jumps", "jumping", "jumper", "jumped", "easily", "running", "flies", "flying", "flies"] before and after stemming.
+
+2. Create a Python program using the SpaCy library and English model "en_core_web_sm" to perform dependency parsing on a given sentence "The cat sat on the mat.", "She quickly ran to catch the bus.".
+
+3. Write a Python program that takes a text = "Regular expressions are a powerful tool for pattern matching in text. They provide a flexible way to search and manipulate strings." and perform a regex = r"powerful|flexible manipulate".
+
+4. Create a Python program that performs Named Entity Recognition on a text using libraries like spaCy or NLTK to the sentence "Microsoft Corporation is headquartered in Redmond, Washington.".
