@@ -1,0 +1,7 @@
+1. Create a Python program that demonstrates stochastic part-of-speech tagging for the given sentences "The red car stopped at the traffic light", "She quickly ran to catch the bus".
+
+2. Create a Python program for abstractive text summarization, a more advanced technique that generates summaries by rewriting the content in a human-readable form. Compose using following sentence "The World Health Organization (WHO) plays a vital role in global health. WHO is headquartered in Geneva, Switzerland, and it is responsible for coordinating international efforts to control and prevent the spread of diseases? Its mission is to promote and protect the health of people worldwide."
+
+3. Write a Python program that performs syntax-driven semantic analysis by extracting noun phrases and their meanings from the sentence "The quick brown fox jumps over the lazy dog.", "She is an excellent chef and loves to cook delicious meals.", "The Eiffel Tower in Paris is a famous landmark.".
+
+4. Write a Python program that showcases how to perform morphological analysis using the NLTK library. Use a sample word and show how to lemmatize it "The quick brown foxes jumped over the lazy dogs.", "I am running in the park with my friends."
