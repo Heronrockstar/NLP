@@ -1,0 +1,33 @@
+Set-9
+
+1. Develop a Python program that uses a PCFG to parse a sentence using "The cat chased the mouse", the probabilities in square brackets indicate the likelihood of each rule need to apply.
+
+S -> NP VP [0.6]
+
+NP -> Det N [0.3]
+
+NP -> NP PP [0.2]
+
+VP -> V NP [0.5]
+
+VP -> VP PP [0.4]
+
+PP -> P NP [0.7]
+
+2. Create a Python program for sentiment analysis which can be positive, negative, or neutral on a set of text data "I love this product! It's amazing.".
+
+3. Create a Python program to recognize dialog acts in a given dialog or conversation = [
+
+"Hello! How are you today?",
+
+"I'm doing well, thank you. How about you?",
+
+"Can you please pass the salt?",
+
+"Sure, here you go.",
+
+"What time is the meeting tomorrow?",
+
+"The meeting is at 2:00 PM."].
+
+4. Implement a Python program that constructs a finite state automaton capable of recognizing dates in a specific format (e.g., DD/MM/YYYY).
