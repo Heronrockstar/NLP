@@ -1,0 +1,20 @@
+
+1. Implement a Python program that performs rule-based part-of-speech tagging using regular expressions using the following rules.
+
+patterns = [
+
+(r'\b(?:The the)\b', 'DET'), # Matches 'The' or 'the' as determiners
+
+(r'\b(?:cat/dog)\b', 'NOUN'), # Matches 'cat' or 'dog' as nouns
+
+(r'\b(?:is/am/are)\b', 'VERB'), # Matches 'is,' 'am,' or 'are' as verbs
+
+(r'\b(?:quickly brightly)\b', 'ADV'), #Matches 'quickly' or 'brightly' as adverbs
+
+(r'\b(?:[A-Za-z]+)\b', 'NOUN') # Matches any other words as nouns]
+
+2. Develop a Python program that performs Named Entity Recognition (NER) on a given text using popular libraries or models for the sentence "The capital of France is Paris, and it's known for the Eiffel Tower."
+
+3. Develop a Python program for parsing sentences using a Probabilistic Context-Free Grammar (PCFG). Use the PCNF grammar S -> NP VP [1.0], NP -> Det N [0.5] | NP PP [0.4] | 'the' [0.1], VP -> V NP [0.7] | VP PP [0.3], PP -> P NP [1.0], Det -> 'the' [0.7] | 'a' [0.3], N -> 'fox' [0.4] | 'dog' [0.3] | 'cat' [0.2] | 'bird' [0.1], V -> 'jumps' [0.5] | 'runs' [0.3] | 'sits' [0.2], P -> 'over' [0.6] | 'on' [0.4] and use the input string "The quick brown fox jumps over the lazy dog."
+
+4. Write a Python program that employs the Porter Stemmer algorithm from a Python library to perform word stemming on a list of words. The sample sentences are "Coding with Python is very enjoyable.", "I had a delicious meal at the restaurant.".
